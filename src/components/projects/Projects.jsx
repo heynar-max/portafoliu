@@ -2,9 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Github } from '../icon'
-import styles from './Analisis.module.css'
+import styles from './Project.module.css'
 
-const Article = ({type, title, summary, img, link, github}) => {
+const Projects = ({type, title, summary, img, link, github}) => {
     return (
         <article className={styles.project_container}>
             <div className={styles.project_flex}>
@@ -27,4 +27,4 @@ const Article = ({type, title, summary, img, link, github}) => {
     )
 }
 
-export default Article
+export default Projects
