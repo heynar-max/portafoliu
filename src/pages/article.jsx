@@ -1,4 +1,4 @@
-import Article from '@/components/analisis_datos/Analisis'
+import Article from '@/components/article/Article'
 import Head from 'next/head'
 import React from 'react'
 import styles from '@/styles/Home.module.css'
