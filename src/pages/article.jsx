@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import developer from '../../public/image/developer.png'
 
 
+
 const article = () => {
   return (
     <>
