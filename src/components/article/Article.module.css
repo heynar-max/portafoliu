@@ -1,14 +1,14 @@
-.project_container{
+.article_container{
     border: 30px solid #fff;
     outline: 2px solid rgb(1, 1, 1);
     border-radius: 12px;
     box-shadow: 15px 15px;
 }
-.project_flex{
+.article_flex{
     display: flex;
     align-items: center;
 }
-.project_img{
+.article_img{
     width: 100%;
     height: 80%;
     border-radius: 12px;

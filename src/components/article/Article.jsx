@@ -6,10 +6,10 @@ import styles from './Article.module.css'
 
 const Article = ({type, title, summary, img, link, github}) => {
     return (
-        <article className={styles.project_container}>
-            <div className={styles.project_flex}>
+        <article className={styles.article_container}>
+            <div className={styles.article_flex}>
             <Link href={link} target="_blank" >
-                <Image className={styles.project_img} src={img} alt={title}/>
+                <Image className={styles.article_img} src={img} alt={title}/>
             </Link>
             <div>
                 <span>{type}</span>
