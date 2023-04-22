@@ -26,8 +26,8 @@ const Navbar = () => {
             <nav>
                 <CustomLink href="/" title='Home'/>
                 <CustomLink href="/about" title='About'/>
-                <CustomLink href="/projects" title='Projects'/>
-                <CustomLink href="/article" title='Article'/>
+                <CustomLink href="/projects" title='Projects '/>
+                <CustomLink href="/article" title='Analisis'/>
             </nav>
             <Link href="/"><Image className={styles.navbar_logo} src={Logo} alt='logo' priority={true} /></Link>
             <nav className={styles.navbar_icon}>

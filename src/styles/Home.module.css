@@ -80,6 +80,19 @@
   font-size: 6rem;
 }
 
+.project_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 5rem;
+  padding: 1rem;
+
+}
+
+
+
+
+
 
 .description {
   display: inherit;
