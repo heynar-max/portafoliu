@@ -1,11 +1,85 @@
-.main {
+.home_figure{
+  width: 100%;
+}
+.home_img{
+  width: 40rem;
+  height: 40rem;
+  overflow: hidden;
+}
+.home_h1{
+  font-size: 4rem;
+}
+.home_text{
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.home_botton{
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+.about_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+.about_title{
+  margin-bottom: 2rem;
+}
+.about_text{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  align-items: flex-start;
 }
+.about_parrafo{
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.about_figure{
+  border: 30px solid #fff;
+  outline: 2px solid rgb(1, 1, 1);
+  border-radius: 12px;
+  box-shadow: 15px 15px;
+  width: 300px;
+  height: 350px;
+}
+.about_imagen{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.about_center{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about_articule{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about_span{
+  font-size: 6rem;
+}
+
 
 .description {
   display: inherit;

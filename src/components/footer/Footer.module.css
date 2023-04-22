@@ -1,0 +1,5 @@
+.footer{
+    border-top: 3px solid;
+    display: flex;
+    justify-content: center;
+}
