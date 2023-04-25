@@ -16,6 +16,7 @@ export default function Home() {
     </Head>  
       <main>
         <Layout>
+          <div className={styles.home_container}>
             <figure className={styles.home_figure}>
               <Image className={styles.home_img} src={Pinture} alt='Heynar Soto Holguin' priority={true}/>;
             </figure>
@@ -26,6 +27,7 @@ export default function Home() {
               <Link className={styles.home_botton} href='mailto:heynar76@hotmail.com' target={'_blank'}>Contacto</Link>
             </div>
           </div>
+        </div>
         </Layout>
       </main>
     </>
