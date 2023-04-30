@@ -1,3 +1,46 @@
+.githubProjects{
+    font-size: 1.8rem;
+    color: black;
+    margin-right: 1rem;
+}
+.mongo{
+    font-size: 3rem;
+    color: rgb(16, 132, 3);
+    margin-right: 1rem;
+}
+.reactl{
+    font-size: 3rem;
+    color: rgb(18, 135, 230);
+    margin-right: 1rem;
+}
+.pythonl{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+.html{
+    font-size: 3rem;
+    color: rgb(206, 27, 27);
+    margin-right: 1rem;
+}
+.css{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+.mysql{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+.tableaul{
+    font-size: 3rem;
+    color: rgb(1, 80, 153);
+    margin-right: 1rem;
+}
+
+
+
 .github{
     font-size: 1.8rem;
     color: black;

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { Github } from '../icon'
+import { GithubProject } from '../icon'
 import styles from './Project.module.css'
 
 const Projects = ({type, title, summary, img, link, github}) => {
@@ -18,7 +18,7 @@ const Projects = ({type, title, summary, img, link, github}) => {
                         </Link>
                         <p>{summary}</p>
                         <div>
-                            <Link href={github} target="_blank"> <Github/> </Link>
+                            <Link href={github} target="_blank"> <GithubProject/> </Link>
                             <Link href={link} target="_blank"> Visita el proyect </Link>
                         </div>
                     </div>

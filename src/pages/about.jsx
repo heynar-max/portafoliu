@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 import Foto from '../../public/image/foto.jpg'
 import Layout from '@/components/layout/Layout'
+import Skills from '@/components/skill/Skills'
 
 const about = () => {
     return (
@@ -51,6 +52,7 @@ const about = () => {
                         </div>
                 </div>
                 </div>
+                <Skills/>
             </Layout>
             </main>
         </>
