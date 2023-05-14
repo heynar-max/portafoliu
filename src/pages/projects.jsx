@@ -1,12 +1,13 @@
 import Projects from '@/components/projects/Projects'
 import Head from 'next/head'
 import React from 'react'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Projectspage.module.css'
 import web from '../../public/image/web.jpg'
 import web2 from '../../public/image/web2.jpg'
 import web3 from '../../public/image/web3.jpg'
 import buga from '../../public/image/bugaprojects.jpg'
 import Layout from '@/components/layout/Layout'
+
 
 const projects = () => {
     return (

@@ -5,9 +5,9 @@ import styles from './Footer.module.css'
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-        <Layout >
+        <div className={styles.footer_text}>
             <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
-        </Layout>
+        </div>
     </footer>
   )
 }

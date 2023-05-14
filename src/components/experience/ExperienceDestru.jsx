@@ -9,7 +9,7 @@ const ExperienceDestru = ({position, company, companyLink, time, address, work})
                 target='_blank'
                 className={styles.detalle_link}
                 >
-                    @{company}</a></h3>
+                    {company}</a></h3>
                 <span className={styles.detalle_span}>
                     {time} | {address}
                 </span>

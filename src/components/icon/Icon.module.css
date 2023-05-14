@@ -38,6 +38,19 @@
     color: rgb(1, 80, 153);
     margin-right: 1rem;
 }
+.fatimes{
+    font-size: 2rem;
+}
+.fabars{
+    font-size: 2rem;
+}
+.cihome{
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 
 
 
@@ -120,4 +133,35 @@
 	100% {
 		transform: scale(1.5) translateX(0);
 	}
+}
+@media(max-width: 550px){
+
+    .mongo{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .reactl{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .pythonl{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .html{
+        font-size: 2rem;
+        margin-right: 0rem;;
+    }
+    .css{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .mysql{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
+    .tableaul{
+        font-size: 2rem;
+        margin-right: 0rem;
+    }
 }

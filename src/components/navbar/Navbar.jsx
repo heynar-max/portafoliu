@@ -1,40 +1,40 @@
 import React from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import styles from './Navbar.module.css'
 import Logo from '../../../public/image/logohs.png'
-import { Github, Linkend, Tableau } from '../icon/index'
+import { FaFaBars, FaFaTimes, File, Folder, Github, Home, Html, Linkend, PythonL, Tableau, User } from '../icon/index'
+import {Navbarmovile, CustomLink} from './Navbarmovile'
 
-
-const CustomLink =({href, title}) =>{
-
-    const router = useRouter()
-
-    return(
-        <Link href={href} className={styles.navbar_link}>
-            {title}
-            <span className={router.asPath === href ? (styles.w_full) : (styles.navbar_span)}
-            >&nbsp;</span>
-        </Link>
-    )
-}
 
 const Navbar = () => {
+
     return (
         <header className={styles.navbar_header}>
-            <nav>
-                <CustomLink href="/" title='Home'/>
-                <CustomLink href="/about" title='About'/>
-                <CustomLink href="/projects" title='Projects '/>
-                <CustomLink href="/article" title='Article'/>
-            </nav>
-            <Link href="/"><Image className={styles.navbar_logo} src={Logo} alt='logo' priority={true} /></Link>
-            <nav className={styles.navbar_icon}>
-                <Link href="https://github.com/heynar-max" target={"_blank"}><Github/></Link>
-                <Link href="https://public.tableau.com/app/profile/heynar.soto.holguin" target={"_blank"}><Tableau/></Link>
-                <Link href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target={"_blank"}><Linkend/></Link>
-            </nav>
+                <nav className={styles.navbar_container}>
+                        <CustomLink href="/" title='Home' />
+                        <CustomLink href="/about" title='About' />
+                        <CustomLink href="/projects" title='Projects ' />
+                        <CustomLink href="/article" title='Article' />
+                </nav>
+                    <Link href="/" className={styles.navbar_logo_link}><Image className={styles.navbar_logo} src={Logo} alt='logo' priority={true} /></Link>
+                <nav className={styles.navbar_icon}>
+                    <Link href="https://github.com/heynar-max" target={"_blank"} ><Github/></Link>
+                    <Link href="https://public.tableau.com/app/profile/heynar.soto.holguin" target={"_blank"} ><Tableau/></Link>
+                    <Link href="https://www.linkedin.com/in/heynar-soto-holguin-bb7a43213/" target={"_blank"} ><Linkend/></Link>
+                </nav>
+
+                <nav className={styles.navbar_footer}>
+                    <div className={styles.ensayo}>
+                            <Navbarmovile className={styles.otro} href='/' icon={<Home/>} title='Home' />
+                            <Navbarmovile className={styles.otro} href='/about' icon={<User/>} title='About' />
+                            <Navbarmovile className={styles.otro} href='/projects' icon={<Folder/>} title='Projects' />
+                            <Navbarmovile className={styles.otro} href='/article' icon={<File/>} title='Article' />
+                    </div>
+                            </nav>
+            
         </header>
     )
 }

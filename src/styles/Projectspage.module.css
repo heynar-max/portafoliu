@@ -1,0 +1,34 @@
+
+
+.project_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin-top: 5rem;
+  padding: 1rem;
+
+}
+.projects_main{
+  padding: 1rem;
+}
+
+@media (max-width: 1000px){
+  .project_container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 650px){
+  .project_container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+

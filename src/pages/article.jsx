@@ -3,7 +3,7 @@ import Head from 'next/head'
 import React from 'react'
 import game from '../../public/image/game.jpg'
 import categoria from '../../public/image/categoriaventas.jpg'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Articlepage.module.css'
 import Layout from '@/components/layout/Layout'
 
 const article = () => {

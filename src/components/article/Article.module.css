@@ -15,4 +15,33 @@
     width: 100%;
     border-radius: 12px;
     /* object-fit: cover; */
-};
+}
+
+@media(max-width: 650px){
+    .article_container{
+        border: 20px solid #fff;
+        outline: 2px solid rgb(1, 1, 1);
+        border-radius: 12px;
+        box-shadow: 5px 8px 0px 6px;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+@media (max-width: 450px){
+    .article_img{
+        width: 100%;
+        height: 40%;
+        border-radius: 12px;
+        /* object-fit: cover; */
+    }
+    .article_span{
+        font-size: 1rem;
+    }
+    .article_title{
+        font-size: 1rem;
+    }
+    .article_parrafo{
+        font-size: .8rem;
+    }
+}

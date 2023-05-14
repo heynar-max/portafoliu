@@ -12,11 +12,11 @@ const Article = ({type, title, summary, img, link, github}) => {
                 <Image className={styles.article_img} src={img} alt={title}/>
             </Link>
             <div>
-                <span>{type}</span>
+                <span className={styles.article_span}>{type}</span>
                 <Link href={link} target="_blank">
-                <h2>{title}</h2>
+                <h2 className={styles.article_title}>{title}</h2>
                 </Link>
-                <p>{summary}</p>
+                <p className={styles.article_parrafo}>{summary}</p>
             <div>
             <Link href={github} target="_blank"> <GithubProject/> </Link>
             <Link href={link} target="_blank"> Visita el proyect </Link>

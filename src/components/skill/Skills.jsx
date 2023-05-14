@@ -7,36 +7,35 @@ const Skills = () => {
     return (
         <>
             <Layout>
-
             <h1 className={styles.skill_flex}>Skills</h1>
             <div className={styles.skill_container}>
                 <div className={styles.skill_container_individual}>
                     <ReactL/>
-                    <h2>React</h2>
+                    <h2 className={styles.skill_text}>React</h2>
                 </div>
                 <div className={styles.skill_container_individual}>
                     <PythonL/>
-                    <h2>Python</h2>
+                    <h2 className={styles.skill_text}>Python</h2>
                 </div>
                 <div className={styles.skill_container_individual}>
                     <Html/>
-                    <h2>Html</h2>
+                    <h2 className={styles.skill_text}>Html</h2>
                 </div>
                 <div className={styles.skill_container_individual}>
                     <Css/>
-                    <h2>Css</h2>
+                    <h2 className={styles.skill_text}>Css</h2>
                 </div>
                 <div className={styles.skill_container_individual}>
                     <Mysql/>
-                    <h2>Mysql</h2>
+                    <h2 className={styles.skill_text}>Mysql</h2>
                 </div>
                 <div className={styles.skill_container_individual}>
                     <Mongo/>
-                    <h2>Mongo</h2>
+                    <h2 className={styles.skill_text}>Mongo</h2>
                 </div>
                 <div className={styles.skill_container_individual}>
                     <TableauL/>
-                    <h2>Tableau</h2>
+                    <h2 className={styles.skill_text}>Tableau</h2>
                 </div>
             </div>
             </Layout>

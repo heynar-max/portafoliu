@@ -1,7 +1,7 @@
 .skill_container{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 40px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
     border: 30px solid #fff;
     outline: 2px solid rgb(1, 1, 1);
     border-radius: 12px;
@@ -15,10 +15,11 @@
     outline: 2px solid rgb(1, 1, 1);
     border-radius: 12px;
     box-shadow: 5px 10px 0px 8px;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
 }
 .skill_container_individual:hover{
     color:#730e3a;
@@ -29,4 +30,73 @@
     align-items: center;
     margin-bottom: 5rem;
     font-size: 5rem;
+}
+
+@media(max-width: 1200px){
+    .skill_container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media(max-width: 1000px){
+    .skill_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+@media(max-width: 700px){
+    .skill_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 550px){
+    .skill_container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px;
+    }
+    .skill_text{
+        font-size: 1rem;
+    }
+    .skill_container_individual{
+        border: 5px solid #fff;
+        outline: 2px solid rgb(1, 1, 1);
+        border-radius: 12px;
+        box-shadow: 5px 6px 0px 3px;
+    
+    }
+    .skill_container_individual{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media(max-width: 420px){
+    .skill_container{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .skill_container{
+        width: 100%;
+    }
+}
+@media(max-width: 380px){
+    .skill_container{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .skill_text{
+        font-size: 1rem;
+    }
+    .skill_container_individual{
+        width: 70%;
+        border: 5px solid #fff;
+        outline: 2px solid rgb(1, 1, 1);
+        border-radius: 12px;
+        box-shadow: 5px 6px 0px 3px;
+    
+    }
+    .skill_container{
+        width: 100%;
+        height: 100%;
+    }
 }

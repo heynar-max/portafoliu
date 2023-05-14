@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/About.module.css'
 import Image from 'next/image'
 import Foto from '../../public/image/foto.jpg'
 import Layout from '@/components/layout/Layout'
@@ -17,7 +17,11 @@ const about = () => {
             <main >
                 <Layout>
                     <div className={styles.about}>
-                <h1>Los Objetivos</h1>
+                        <div className={styles.about_title_containe}>
+                            <h1 className={styles.title}>Pasión Por Lo Que Se Sueña </h1>
+                            <h1 className={styles.title}>¡Objetivos! </h1>
+                        </div>
+                
                 <div className={styles.about_grid}>
                     <div className={styles.about_text}>
                         <h2 className={styles.about_title}>Biografia</h2>
@@ -30,20 +34,21 @@ const about = () => {
                             <Image className={styles.about_imagen} src={Foto} alt="heynar Soto Holguin" />
                         </figure>
                     </div>
+                </div>
                         <div className={styles.about_articule}>
-                            <div>
+                            <div className={styles.about_article_num}>
                                 <span className={styles.about_span}>
                                     10+
                                 </span>
                                 <p className={styles.about_lee}>Proyectos React</p>
                             </div>
-                            <div>
+                            <div className={styles.about_article_num}>
                                 <span className={styles.about_span}>
                                     3+
                                 </span>
                                 <p className={styles.about_lee}>Analisis Datos</p>
                             </div>
-                            <div>
+                            <div className={styles.about_article_num}>
                                 <span className={styles.about_span}>
                                     1+
                                 </span>
@@ -51,7 +56,6 @@ const about = () => {
                             </div>
                             
                         </div>
-                </div>
                 </div>
                 <Skills/>
                 <Experience/>
