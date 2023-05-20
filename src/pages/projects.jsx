@@ -7,6 +7,7 @@ import web2 from '../../public/image/web2.jpg'
 import web3 from '../../public/image/web3.jpg'
 import buga from '../../public/image/bugaprojects.jpg'
 import Layout from '@/components/layout/Layout'
+import Title from '@/components/title/Title'
 
 
 const projects = () => {
@@ -19,42 +20,44 @@ const projects = () => {
         <main>
             <Layout>
             <div className={styles.project_flex}>
-                <h1>Imaginación Triunfos ¡Conocimiento!</h1>
+                <Title title={'Imaginación y Triunfos'}/>
+                <Title title={' ¡Conocimiento!'}/>
+                
             <div>
                 <div className={styles.project_container}>
                     <Projects
-                    title="prueba titulo"
+                    title="Pagina de ensayo "
                     img={buga}
-                    summary="este en un ensayo de un parrafo"
+                    summary="Una pagina de React trasladada a Next "
                     link="https://mi-pueblo.vercel.app"
                     github="/"
-                    type="proyectos feactud"
+                    type="sitio web"
                     />
                 
                     <Projects
-                    title="prueba titulo"
+                    title="Portafolio Prueba"
                     img={web}
-                    summary="este en un ensayo de un parrafo"
+                    summary="Un sitio web en React, ensayos de portafolios"
                     link="https://portafolio2hey.netlify.app"
                     github="/"
-                    type="proyectos feactud"
+                    type="Portafolio sitio web"
                     />
                 
                     <Projects
-                    title="prueba titulo"
+                    title="Portafolio Prueba"
                     img={web2}
-                    summary="este en un ensayo de un parrafo"
+                    summary="Un sitio web en React, ensayos de portafolios"
                     link="https://portafolioheynar.netlify.app"
                     github="/"
-                    type="proyectos feactud"
+                    type="Portafolio sitio web"
                     />
                     <Projects
                     title="prueba titulo"
                     img={web3}
-                    summary="este en un ensayo de un parrafo"
+                    summary="Un sitio web en React, en mis inicios de practica"
                     link="https://turismobuga.netlify.app/"
                     github="/"
-                    type="proyectos feactud"
+                    type="sitio web"
                     />
                 </div>
             </div>

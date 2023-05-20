@@ -9,7 +9,7 @@ const Article = ({type, title, summary, img, link, github}) => {
         <article className={styles.article_container}>
             <div className={styles.article_flex}>
             <Link href={link} target="_blank" >
-                <Image className={styles.article_img} src={img} alt={title}/>
+                <Image className={styles.article_img} src={img} alt={title} priority={true}/>
             </Link>
             <div>
                 <span className={styles.article_span}>{type}</span>
@@ -19,7 +19,7 @@ const Article = ({type, title, summary, img, link, github}) => {
                 <p className={styles.article_parrafo}>{summary}</p>
             <div>
             <Link href={github} target="_blank"> <GithubProject/> </Link>
-            <Link href={link} target="_blank"> Visita el proyect </Link>
+            <Link href={link} target="_blank"> Visita el proyecto </Link>
             </div>
             </div>
             </div>

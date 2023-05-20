@@ -9,7 +9,7 @@ const Projects = ({type, title, summary, img, link, github}) => {
         <article className={styles.project_container}>
             <div className={styles.project_flex}>
                     <Link href={link} target="_blank" >
-                        <Image className={styles.project_img} src={img} alt={title}/>
+                        <Image className={styles.project_img} src={img} alt={title} priority={true}/>
                     </Link>
                     <div>
                         <span className={styles.project_span}>{type}</span>
@@ -19,7 +19,7 @@ const Projects = ({type, title, summary, img, link, github}) => {
                         <p className={styles.project_parrafo}>{summary}</p>
                         <div>
                             <Link href={github} target="_blank"> <GithubProject/> </Link>
-                            <Link href={link} target="_blank"> Visita el proyect </Link>
+                            <Link href={link} target="_blank"> Visita el proyecto </Link>
                         </div>
                     </div>
             </div>

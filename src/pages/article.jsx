@@ -5,6 +5,7 @@ import game from '../../public/image/game.jpg'
 import categoria from '../../public/image/categoriaventas.jpg'
 import styles from '@/styles/Articlepage.module.css'
 import Layout from '@/components/layout/Layout'
+import Title from '@/components/title/Title'
 
 const article = () => {
     return (
@@ -16,41 +17,42 @@ const article = () => {
             <main>
                 <Layout>
                 <div className={styles.article_flex}>
-                    <h1>Imaginación Triunfos ¡Conocimiento!</h1>
+                    <Title title={'Datos y blog'}/>
+                    <Title title={' para cambiar el mundo'}/>
                     <div className={styles.article_container}>
                         <Article
-                        title="prueba titulo"
+                        title="Ventas por Categoria"
                         img={categoria}
-                        summary="este en un ensayo de un parrafo"
+                        summary="Son datos obtenidos en la pagina kaggle de ventas por categoria en tecnologia, muebles y material de oficina"
                         link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/VentasporCategoria_16818704851260/Dashboard3"
                         github="/"
-                        type="proyectos feactud"
+                        type="Visualizacion de datos con tableau"
+                        />
+                    
+                        <Article
+                        title="Game of Thrones"
+                        img={game}
+                        summary="Datos obtenidos por kaggle sobra la saga conocida Game of Thrones"
+                        link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/gameofthorne/vistazogeneral"
+                        github="/"
+                        type="Visualizacion de datos con tableau"
                         />
                     
                         <Article
                         title="prueba titulo"
-                        img={game}
-                        summary="este en un ensayo de un parrafo"
-                        link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/gameofthorne/vistazogeneral"
-                        github="/"
-                        type="proyectos feactud"
-                        />
-                    
-                        <Article
-                        title="prueba titulo"
                         img={categoria}
-                        summary="este en un ensayo de un parrafo"
+                        summary="Son datos obtenidos en la pagina kaggle de ventas por categoria en tecnologia, muebles y material de oficina"
                         link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/VentasporCategoria_16818704851260/Dashboard3"
                         github="/"
-                        type="proyectos feactud"
+                        type="Visualizacion de datos con tableau"
                         />
                         <Article
-                        title="prueba titulo"
+                        title="Game of Thrones"
                         img={game}
-                        summary="este en un ensayo de un parrafo"
+                        summary="Datos obtenidos por kaggle sobra la saga conocida Game of Thrones"
                         link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/gameofthorne/vistazogeneral"
                         github="/"
-                        type="proyectos feactud"
+                        type="Visualizacion de datos con tableau"
                         />
                     </div>
                 </div>

@@ -14,7 +14,12 @@
 .article_img{
     width: 100%;
     border-radius: 12px;
-    /* object-fit: cover; */
+
+}
+.article_span{
+    font-size: 1.2rem;
+    color: var(--tercer-color);
+    font-weight: 600;
 }
 
 @media(max-width: 650px){

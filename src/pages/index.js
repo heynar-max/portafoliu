@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Layout from '@/components/layout/Layout'
 import Pinture from '../../public/image/develo.png'
 import Link from 'next/link'
+import Title from '@/components/title/Title'
 
 
 
@@ -21,7 +22,8 @@ export default function Home() {
               <Image className={styles.home_img} src={Pinture} alt='Heynar Soto Holguin' priority={true}/>
             </figure>
           <div className={styles.home_container_text}>
-            <h1 className={styles.home_h1}>Torneado Visión En Realidad Con Código, Diseño y Analisis de Datos</h1>
+            <Title title={'Torneado Visión En Realidad Con Código, Diseño y Analisis de Datos'}/>
+            
             <p className={styles.home_text}>Como desarrollador full-stack Junior, me dedico a convertir ideas en aplicaciones web innovadoras. Explore mis últimos proyectos y artículos de Analisis de Datos, mostrando mis habilidades en React.js, desarrollo web y Datos.</p>
             <div className={styles.home_botton_container}>
               <Link className={styles.home_botton} href='mailto:heynar76@hotmail.com' target={'_blank'}>Contacto</Link>

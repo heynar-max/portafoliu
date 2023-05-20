@@ -6,6 +6,7 @@ import Foto from '../../public/image/foto.jpg'
 import Layout from '@/components/layout/Layout'
 import Skills from '@/components/skill/Skills'
 import Experience from '@/components/experience/Experience'
+import Title from '@/components/title/Title'
 
 const about = () => {
     return (
@@ -18,8 +19,8 @@ const about = () => {
                 <Layout>
                     <div className={styles.about}>
                         <div className={styles.about_title_containe}>
-                            <h1 className={styles.title}>Pasión Por Lo Que Se Sueña </h1>
-                            <h1 className={styles.title}>¡Objetivos! </h1>
+                            <Title title={'Pasión Por Lo Que Se Sueña'}/>
+                            <Title title={'¡Objetivos!'}/>
                         </div>
                 
                 <div className={styles.about_grid}>
@@ -31,7 +32,7 @@ const about = () => {
                     </div>
                     <div className={styles.about_center}>
                         <figure className={styles.about_figure}>
-                            <Image className={styles.about_imagen} src={Foto} alt="heynar Soto Holguin" />
+                            <Image className={styles.about_imagen} src={Foto} alt="heynar Soto Holguin" priority={true} />
                         </figure>
                     </div>
                 </div>
