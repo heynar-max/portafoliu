@@ -7,6 +7,7 @@ import web2 from '../../public/image/web2.jpg'
 import web3 from '../../public/image/web3.jpg'
 import buga from '../../public/image/bugaprojects.jpg'
 import emprendedor from '../../public/image/emprendedor.jpg'
+import tienda from '../../public/image/tiendaonline.jpg'
 import Layout from '@/components/layout/Layout'
 import Title from '@/components/title/Title'
 
@@ -31,7 +32,16 @@ const projects = () => {
                     img={emprendedor}
                     summary="Una pagina de React FullStack MERN "
                     link="https://directorio-emprendedor.vercel.app"
-                    github="/"
+                    github="https://github.com/heynar-max/directorio_emprendedor"
+                    type="sitio web"
+                    />
+
+                    <Projects
+                    title="Pagina de ensayo "
+                    img={tienda}
+                    summary="Una pagina de React FullStack MERN "
+                    link="https://tienda-ensayo.vercel.app/"
+                    github="https://github.com/heynar-max/TiendaEnsayo"
                     type="sitio web"
                     />
 
@@ -40,7 +50,7 @@ const projects = () => {
                     img={buga}
                     summary="Una pagina de React trasladada a Next "
                     link="https://mi-pueblo.vercel.app"
-                    github="/"
+                    github="https://github.com/heynar-max/mi_pueblo"
                     type="sitio web"
                     />
                 
@@ -49,7 +59,7 @@ const projects = () => {
                     img={web}
                     summary="Un sitio web en React, ensayos de portafolios"
                     link="https://portafolio2hey.netlify.app"
-                    github="/"
+                    github="https://github.com/heynar-max/Portafolio2"
                     type="Portafolio sitio web"
                     />
                 
@@ -58,15 +68,16 @@ const projects = () => {
                     img={web2}
                     summary="Un sitio web en React, ensayos de portafolios"
                     link="https://portafolioheynar.netlify.app"
-                    github="/"
+                    github="https://github.com/heynar-max/portafolio1"
                     type="Portafolio sitio web"
                     />
+
                     <Projects
                     title="prueba titulo"
                     img={web3}
                     summary="Un sitio web en React, en mis inicios de practica"
                     link="https://turismobuga.netlify.app/"
-                    github="/"
+                    github="https://github.com/heynar-max/turismo"
                     type="sitio web"
                     />
                 </div>
