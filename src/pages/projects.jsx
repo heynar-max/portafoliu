@@ -6,6 +6,7 @@ import web from '../../public/image/web.jpg'
 import web2 from '../../public/image/web2.jpg'
 import web3 from '../../public/image/web3.jpg'
 import buga from '../../public/image/bugaprojects.jpg'
+import emprendedor from '../../public/image/emprendedor.jpg'
 import Layout from '@/components/layout/Layout'
 import Title from '@/components/title/Title'
 
@@ -25,6 +26,15 @@ const projects = () => {
                 
             <div>
                 <div className={styles.project_container}>
+                    <Projects
+                    title="Pagina de ensayo "
+                    img={emprendedor}
+                    summary="Una pagina de React FullStack MERN "
+                    link="https://directorio-emprendedor.vercel.app"
+                    github="/"
+                    type="sitio web"
+                    />
+
                     <Projects
                     title="Pagina de ensayo "
                     img={buga}
