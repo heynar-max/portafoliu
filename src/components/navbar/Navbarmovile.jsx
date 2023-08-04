@@ -21,7 +21,7 @@ export const Navbarmovile = ({href,title,icon}) => {
         <Link href={href} className={styles.navbar_link_mobile} >
             {icon} 
             {title}
-            <span className={router.asPath === href ? (styles.w_full) : (styles.navbar_span) }
+            <span className={router.asPath === href ? (styles.w_full) : (styles.navbar_span ) }
             ></span>
         </Link>
     )

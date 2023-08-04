@@ -29,10 +29,11 @@
     position: absolute;
     left: -0;
     bottom: -0.5;
+    
 }
 .navbar_link:hover{
     width: 100%;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid;color: var(--segundo-color);
 }
 .w_full{
     width: 100%;
@@ -41,6 +42,7 @@
     position: absolute;
     left: -0;
     bottom: -0.5;
+    
 }
 
 .navbar_logo{
@@ -81,7 +83,8 @@
     }
     
 }
-@media (max-width: 700px){
+
+@media (max-width: 870px){
     .navbar_container{
         display: none;
     }
@@ -112,6 +115,7 @@
         left: -0;
         bottom: -0.5;
         z-index: -1;
+        
     }
     .ensayo{
         display: flex;
@@ -127,11 +131,11 @@
         position: fixed;
         bottom: 0;
         border-bottom-style: inset;
-        background-color: var(--primer-color);
+        background-color: var(--cuarto-color);
         border-radius:30px;
         align-items: center;
         z-index: 1;
-        box-shadow: rgba(4, 4, 4, 0.3) 0px 0px 0px 2px;
+        
     }
     .navbar_logo_link{
         display: flex;

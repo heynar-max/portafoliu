@@ -17,7 +17,7 @@ const Navbar = () => {
                         <CustomLink href="/" title='Home' />
                         <CustomLink href="/about" title='About' />
                         <CustomLink href="/projects" title='Projects ' />
-                        <CustomLink href="/article" title='Article' />
+                        <CustomLink href="/article" title='Data analyst' />
                 </nav>
                     <Link href="/" className={styles.navbar_logo_link}><Image className={styles.navbar_logo} src={Logo} alt='logo' priority={true} /></Link>
                 <nav className={styles.navbar_icon}>
@@ -31,7 +31,7 @@ const Navbar = () => {
                             <Navbarmovile className={styles.otro} href='/' icon={<Home/>} title='Home' />
                             <Navbarmovile className={styles.otro} href='/about' icon={<User/>} title='About' />
                             <Navbarmovile className={styles.otro} href='/projects' icon={<Folder/>} title='Projects' />
-                            <Navbarmovile className={styles.otro} href='/article' icon={<File/>} title='Article' />
+                            <Navbarmovile className={styles.otro} href='/article' icon={<File/>} title='Data' />
                     </div>
                             </nav>
             
