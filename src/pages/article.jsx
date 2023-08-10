@@ -3,6 +3,8 @@ import Head from 'next/head'
 import React from 'react'
 import game from '../../public/image/game.jpg'
 import categoria from '../../public/image/categoriaventas.jpg'
+import co2 from '../../public/image/co2.jpg'
+import feliz from '../../public/image/feliz.jpg'
 import styles from '@/styles/Articlepage.module.css'
 import Layout from '@/components/layout/Layout'
 import Title from '@/components/title/Title'
@@ -39,18 +41,18 @@ const article = () => {
                         />
                     
                         <Article
-                        title="prueba titulo"
-                        img={categoria}
-                        summary="Son datos obtenidos en la pagina kaggle de ventas por categoria en tecnologia, muebles y material de oficina"
-                        link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/VentasporCategoria_16818704851260/Dashboard3"
+                        title="CO2 por paises 2000 al 2011"
+                        img={co2}
+                        summary="Son datos obtenidos en la pagina THE WORLD BANK co2 emissions"
+                        link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/CO2paises/Sheet1"
                         github="/"
                         type="Visualizacion de datos con tableau"
                         />
                         <Article
-                        title="Game of Thrones"
-                        img={game}
-                        summary="Datos obtenidos por kaggle sobra la saga conocida Game of Thrones"
-                        link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/gameofthorne/vistazogeneral"
+                        title="Paises mas feliz 2015 al 2017"
+                        img={feliz}
+                        summary="Datos obtenidos por kaggle paises mas feliz , grafico y tabla basica"
+                        link="https://public.tableau.com/app/profile/heynar.soto.holguin/viz/paismasfeliz2016/Hoja2"
                         github="/"
                         type="Visualizacion de datos con tableau"
                         />
