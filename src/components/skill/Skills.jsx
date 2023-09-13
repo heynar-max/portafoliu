@@ -1,5 +1,5 @@
 import React from 'react'
-import { Css, Html, Mongo, Mysql, PythonL, ReactL, TableauL } from '../icon'
+import { Css, Excel, Html, Mongo, Mysql, Powerbi, PythonL, ReactL, TableauL } from '../icon'
 import Layout from '../layout/Layout'
 import styles from './Skill.module.css'
 
@@ -36,6 +36,14 @@ const Skills = () => {
                 <div className={styles.skill_container_individual}>
                     <TableauL/>
                     <h2 className={styles.skill_text}>Tableau</h2>
+                </div>
+                <div className={styles.skill_container_individual}>
+                    <Excel/>
+                    <h2 className={styles.skill_text}>Excel</h2>
+                </div>
+                <div className={styles.skill_container_individual}>
+                    <Powerbi/>
+                    <h2 className={styles.skill_text}>Power Bi</h2>
                 </div>
             </div>
             </Layout>

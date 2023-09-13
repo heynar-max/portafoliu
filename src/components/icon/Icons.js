@@ -7,6 +7,8 @@ import { SiReact } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
+import { SiMicrosoftexcel } from "react-icons/si";
+import { SiPowerbi } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
@@ -54,6 +56,16 @@ export const Mysql = () => {
 export const TableauL = () => {
     return (
         <div className={styles.tableaul}><SiTableau/></div>
+    )
+}
+export const Excel = () => {
+    return (
+        <div className={styles.mongo}><SiMicrosoftexcel/></div>
+    )
+}
+export const Powerbi = () => {
+    return (
+        <div className={styles.powerbi}><SiPowerbi/></div>
     )
 }
 export const FaFaTimes = () => {
