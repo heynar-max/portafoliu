@@ -51,7 +51,7 @@ const about = () => {
                             </div>
                             <div className={styles.about_article_num}>
                                 <span className={styles.about_span}>
-                                    2+
+                                    3+
                                 </span>
                                 <p className={styles.about_lee}>Años Experiencia</p>
                             </div>

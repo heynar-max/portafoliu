@@ -28,16 +28,25 @@ const projects = () => {
             <div>
                 <div className={styles.project_container}>
                     <Projects
-                    title="Pagina de ensayo "
+                    title="Tienda de productos "
                     img={emprendedor}
-                    summary="Una pagina de React FullStack MERN "
-                    link="https://directorio-emprendedor.vercel.app"
-                    github="https://github.com/heynar-max/directorio_emprendedor"
+                    summary="Una pagina de Next "
+                    link="https://vanlia-charcuteria.vercel.app/"
+                    github="https://github.com/heynar-max/Vanlia-Shop"
                     type="sitio web"
                     />
 
                     <Projects
-                    title="Pagina de ensayo "
+                    title="Pagina Musica"
+                    img={web2}
+                    summary="Un sitio web en Next"
+                    link="https://music-app-hs.vercel.app/"
+                    github="https://github.com/heynar-max/Music_App"
+                    type="pagina de musica"
+                    />
+
+                    <Projects
+                    title="Clone Amazon "
                     img={tienda}
                     summary="Una pagina de React FullStack MERN "
                     link="https://tienda-ensayo.vercel.app/"
@@ -60,15 +69,6 @@ const projects = () => {
                     summary="Un sitio web en React, ensayos de portafolios"
                     link="https://portafolio2hey.netlify.app"
                     github="https://github.com/heynar-max/Portafolio2"
-                    type="Portafolio sitio web"
-                    />
-                
-                    <Projects
-                    title="Portafolio Prueba"
-                    img={web2}
-                    summary="Un sitio web en React, ensayos de portafolios"
-                    link="https://portafolioheynar.netlify.app"
-                    github="https://github.com/heynar-max/portafolio1"
                     type="Portafolio sitio web"
                     />
 
