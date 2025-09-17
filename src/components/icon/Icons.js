@@ -9,7 +9,6 @@ import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiMicrosoftexcel } from "react-icons/si";
 import { SiPowerbi } from "react-icons/si";
-import { SiMysql } from "react-icons/si";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { CiHome } from "react-icons/ci";
